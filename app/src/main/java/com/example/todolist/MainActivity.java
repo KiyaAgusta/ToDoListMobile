@@ -8,7 +8,7 @@ import android.widget.ListView;
 
 public class MainActivity extends AppCompatActivity {
 
-    String[] toDo = {"Nugas", "Makan", "Mandi", "Rebahan", "Olahraga"};
+    String[] toDo = {"Nugas", "Makan", "Mandi", "Rebahan", "Olahraga", "Ngedate"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

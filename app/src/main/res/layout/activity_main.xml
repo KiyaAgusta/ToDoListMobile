@@ -18,17 +18,20 @@
 
         <EditText
             android:id="@+id/itemEditText"
-            android:hint="Add New To Do List"
             android:layout_width="0dp"
+            android:layout_height="wrap_content"
             android:layout_weight="4"
-            android:layout_height="wrap_content" />
+            android:autofillHints=""
+            android:hint="@string/add_new_to_do_list"
+            android:inputType="text" />
 
         <Button
             android:id="@+id/addButton"
-            android:text="Add"
+            android:text="@string/add"
             android:layout_width="0dp"
             android:layout_weight="1"
             android:layout_height="wrap_content" />
+
     </LinearLayout>
 
     <LinearLayout
@@ -41,7 +44,42 @@
         <ListView
             android:id="@+id/itemListView"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-        </ListView>
+            android:layout_height="450dp"></ListView>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="12dp" >
+
+        <Button
+            android:id="@+id/editButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/edit" />
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/delete" />
+
+        <Button
+            android:id="@+id/clearButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:text="@string/clear" />
+    </LinearLayout>
+
 </LinearLayout>
