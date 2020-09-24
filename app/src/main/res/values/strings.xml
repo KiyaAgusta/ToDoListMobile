@@ -6,4 +6,6 @@
     <string name="edit">Edit</string>
     <string name="delete">Delete</string>
     <string name="clear">Clear</string>
+    <string name="to_do_list_item">To Do List Item</string>
+    <string name="search">Search</string>
 </resources>

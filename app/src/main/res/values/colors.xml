@@ -8,4 +8,6 @@
     <color name="pantonePrimary">#01B0C8</color>
     <color name="pantonePrimaryDark">#017787</color>
     <color name="pantoneAccent">#30CBE1</color>
+
+    <color name="white">#FFFFFF</color>
 </resources>
